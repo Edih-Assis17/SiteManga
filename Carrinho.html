@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="Carrinho.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header>Animes Online</header>
+<main> 
+<div class="page-title"> Seu Carrinho</div>
+<div><button class="inicio"><a href="index.html">Inicio</a></button></div>
+<br/>
+<div class="content">
+<section>
+<table>
+<thead>
+    <tr>
+        <th>Produto</th>
+        <th>Preço</th>
+        <th>Quatidade</th>
+        <th>Total</th>
+        <th>-</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+    <td>
+        <div class="product">
+            <img src="img/img-2.jpg">
+            <div class="info">
+                <div class="nome">Hunter X Hunter</div>
+                <div class="categoria"> Manga</div>
+            </div>
+        </div>
+    </td>
+    <td>R$ 19,90</td>
+    <td>
+        <div class="qty">
+            <button><i class='bx bx-minus'></i></button>
+            <span>2</span>
+            <button><i class='bx bx-plus'></i></button>
+        </div>
+    </td>
+    <td>R$ 39,80</td>
+    <td> <button class="remove"><i class="bx bx-x"></i></button></td>
+    </tr>
+<tr>
+    <td>
+        <div class="product">
+            <img src="img/img-6.jpg">
+            <div class="info">
+                <div class="nome">One Piece</div>
+                <div class="categoria"> Manga</div>
+            </div>
+        </div>
+    </td>
+    <td>R$ 73,99</td>
+    <td>
+        <div class="qty">
+            <button><i class='bx bx-minus'></i></button>
+            <span>2</span>
+            <button><i class='bx bx-plus'></i></button>
+        </div>
+    </td>
+    <td>R$ 147,98</td>
+    <td> <button class="remove"><i class="bx bx-x"></i></button></td>
+    </tr>
+</tbody>
+</table>
+</section>
+<aside>
+    <div class="box">
+        <header> Resumo da compra</header>
+        <div class="resumo">
+            <div><span>Sub-total</span> <span>R$ 187,78</span></div>
+            <div><span>Frete</span> <span>Gratuito</span></div>
+            <div><button class="cupom">Adicionar cupom de desconto <i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+        </div>
+        <footer>
+            <span>Total</span>
+            <span>R$ 187,78</span>
+        </footer>
+    </div>
+    <button class="compra">Finalizar Comprar</button>
+</aside>
+</div>
+</main> 
+
+</body>
+</html>

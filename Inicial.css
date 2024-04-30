@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+.container-menu{
+    background-color: #EEE;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card0version {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px; 
+}
+.product-image{
+    height: 500px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: left;
+    background-size: cover;
+}
+#img-1 {
+    background-image: url('../Trabalho-Final/img/img-1.jpg');
+}
+
+#img-2 {
+    background-image: url('../Trabalho-Final/img/img-2.jpg');
+}
+
+#img-3 {
+    background-image: url('../Trabalho-Final/img/img-3.jpg');
+}
+
+#img-4 {
+    background-image: url('../Trabalho-Final/img/img-4.jpg');
+}
+
+#img-5 {
+    background-image: url('../Trabalho-Final/img/img-5.jpg');
+}
+
+#img-6 {
+    background-image: url('../Trabalho-Final/img/img-6.jpg');
+}
+
+footer{
+    background-color: #3db36b;
+    color: #FFF;
+    border-top: 3px solid #0f642f;
+    text-align: center;
+    padding: 30px;
+}
+
+.btn-compra{
+    background-color: #34ae43;
+    border: 3px solid #2672ac;
+    border-radius: 5px;
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    padding: 12px 7px;
+    text-align: center; 
+    margin: 20px;
+    transition: 0.5s;
+}
+
+.btn-compra:hover{
+    background-color: #234966 ;
+}
